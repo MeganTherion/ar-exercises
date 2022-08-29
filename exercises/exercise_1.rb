@@ -18,10 +18,6 @@ gastown = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: tr
 
 puts Store.count
 
-@store1 = Store.find_by(id: 1)
-@store2 = Store.find_by(id: 2)
-@store1.name = "Kitsilano"
 
-pp @store1
 
 
