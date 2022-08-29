@@ -20,3 +20,10 @@ pp @mens_stores
   puts s.name
   puts s.annual_revenue
 end
+
+@womens_stores_under_1m = Store.where(womens_apparel: true).where(annual_revenue: ...1000000)
+@womens_stores_under_1m.all.each do |s|
+  puts s.name
+  puts s.annual_revenue
+end
+
